@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parent_container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    margin: auto;
+}
+
+.grid_container_items {
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red !important;
+}
